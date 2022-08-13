@@ -1,5 +1,5 @@
 import data from '../../data/data.json';
-import { BarChart, XAxis, Bar } from 'recharts';
+import { BarChart, XAxis, Bar, Tooltip } from 'recharts';
 
 export const DataVisualization = ():JSX.Element => {
 
@@ -9,6 +9,7 @@ export const DataVisualization = ():JSX.Element => {
     return (
         <BarChart width={420} height={250} data={data}>
             <XAxis dataKey="day" />
+            <Tooltip />
             <Bar dataKey="amount" fill={softRed} radius={5} />
         </BarChart>
     )
