@@ -4,9 +4,9 @@
 This is a basic component of data visualization build with React.
 ## Tech Stack
 
-**Client:** React, ChakraUI
-**Data Visualization**: Recharts
-**Build**: Vite
+- **Client:** React, ChakraUI
+- **Data Visualization**: Recharts
+- **Build**: Vite
 
 
 
